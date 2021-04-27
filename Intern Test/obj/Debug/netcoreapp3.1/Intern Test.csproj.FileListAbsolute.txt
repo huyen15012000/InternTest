@@ -1,0 +1,15 @@
+C:\Users\pacif\Desktop\Intern Test\Intern Test\bin\Debug\netcoreapp3.1\Intern Test.exe
+C:\Users\pacif\Desktop\Intern Test\Intern Test\bin\Debug\netcoreapp3.1\Intern Test.deps.json
+C:\Users\pacif\Desktop\Intern Test\Intern Test\bin\Debug\netcoreapp3.1\Intern Test.runtimeconfig.json
+C:\Users\pacif\Desktop\Intern Test\Intern Test\bin\Debug\netcoreapp3.1\Intern Test.runtimeconfig.dev.json
+C:\Users\pacif\Desktop\Intern Test\Intern Test\bin\Debug\netcoreapp3.1\Intern Test.dll
+C:\Users\pacif\Desktop\Intern Test\Intern Test\bin\Debug\netcoreapp3.1\Intern Test.pdb
+C:\Users\pacif\Desktop\Intern Test\Intern Test\obj\Debug\netcoreapp3.1\Intern Test.csprojAssemblyReference.cache
+C:\Users\pacif\Desktop\Intern Test\Intern Test\obj\Debug\netcoreapp3.1\Intern_Test.Form1.resources
+C:\Users\pacif\Desktop\Intern Test\Intern Test\obj\Debug\netcoreapp3.1\Intern Test.csproj.GenerateResource.cache
+C:\Users\pacif\Desktop\Intern Test\Intern Test\obj\Debug\netcoreapp3.1\Intern Test.AssemblyInfoInputs.cache
+C:\Users\pacif\Desktop\Intern Test\Intern Test\obj\Debug\netcoreapp3.1\Intern Test.AssemblyInfo.cs
+C:\Users\pacif\Desktop\Intern Test\Intern Test\obj\Debug\netcoreapp3.1\Intern Test.csproj.CoreCompileInputs.cache
+C:\Users\pacif\Desktop\Intern Test\Intern Test\obj\Debug\netcoreapp3.1\Intern Test.dll
+C:\Users\pacif\Desktop\Intern Test\Intern Test\obj\Debug\netcoreapp3.1\Intern Test.pdb
+C:\Users\pacif\Desktop\Intern Test\Intern Test\obj\Debug\netcoreapp3.1\Intern Test.genruntimeconfig.cache
