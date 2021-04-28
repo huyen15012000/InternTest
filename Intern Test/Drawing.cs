@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Intern_Test
 {
-    abstract class Drawing
+    public abstract class Drawing
     {
        abstract public void Draw();
     }
