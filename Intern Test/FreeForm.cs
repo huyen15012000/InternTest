@@ -10,5 +10,10 @@ namespace Intern_Test
         {
             throw new NotImplementedException();
         }
+
+        public override void setup(int a, int b)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

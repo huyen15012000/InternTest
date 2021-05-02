@@ -4,9 +4,14 @@ using System.Text;
 
 namespace Intern_Test
 {
-    class Square : Shape
+    class Diamond : Shape
     {
         public override void Draw()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void setup(int a, int b)
         {
             throw new NotImplementedException();
         }

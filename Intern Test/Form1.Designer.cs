@@ -29,33 +29,22 @@ namespace Intern_Test
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.fontDialog1 = new System.Windows.Forms.FontDialog();
             this.TextButton = new System.Windows.Forms.Button();
             this.ShapeCbb = new System.Windows.Forms.ComboBox();
             this.FreeFormBtn = new System.Windows.Forms.Button();
-            this.fontDialog1 = new System.Windows.Forms.FontDialog();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
+            // fontDialog1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.TextButton);
-            this.panel1.Controls.Add(this.ShapeCbb);
-            this.panel1.Controls.Add(this.FreeFormBtn);
-            this.panel1.Location = new System.Drawing.Point(12, 23);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(788, 264);
-            this.panel1.TabIndex = 0;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.fontDialog1.Apply += new System.EventHandler(this.TextButton_Click);
             // 
             // TextButton
             // 
-            this.TextButton.Location = new System.Drawing.Point(199, -1);
+            this.TextButton.Location = new System.Drawing.Point(201, 12);
             this.TextButton.Name = "TextButton";
             this.TextButton.Size = new System.Drawing.Size(112, 34);
-            this.TextButton.TabIndex = 2;
+            this.TextButton.TabIndex = 5;
             this.TextButton.Text = "A";
             this.TextButton.UseVisualStyleBackColor = true;
             this.TextButton.Click += new System.EventHandler(this.TextButton_Click);
@@ -63,48 +52,43 @@ namespace Intern_Test
             // ShapeCbb
             // 
             this.ShapeCbb.FormattingEnabled = true;
-            this.ShapeCbb.Location = new System.Drawing.Point(110, 0);
+            this.ShapeCbb.Location = new System.Drawing.Point(112, 13);
             this.ShapeCbb.Name = "ShapeCbb";
             this.ShapeCbb.Size = new System.Drawing.Size(90, 33);
-            this.ShapeCbb.TabIndex = 1;
+            this.ShapeCbb.TabIndex = 4;
             this.ShapeCbb.Text = "Shape";
-            this.ShapeCbb.SelectedIndexChanged += new System.EventHandler(this.ShapeCbb_SelectedIndexChanged);
             // 
             // FreeFormBtn
             // 
-            this.FreeFormBtn.Location = new System.Drawing.Point(-1, -1);
+            this.FreeFormBtn.Location = new System.Drawing.Point(1, 12);
             this.FreeFormBtn.Name = "FreeFormBtn";
             this.FreeFormBtn.Size = new System.Drawing.Size(112, 34);
-            this.FreeFormBtn.TabIndex = 0;
+            this.FreeFormBtn.TabIndex = 3;
             this.FreeFormBtn.Text = "Free form";
             this.FreeFormBtn.UseVisualStyleBackColor = true;
-            this.FreeFormBtn.Click += new System.EventHandler(this.FreeFormBtn_Click);
-            // 
-            // fontDialog1
-            // 
-            this.fontDialog1.Apply += new System.EventHandler(this.TextButton_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.TextButton);
+            this.Controls.Add(this.ShapeCbb);
+            this.Controls.Add(this.FreeFormBtn);
             this.Name = "Form1";
             this.Text = "Paint";
-            this.panel1.ResumeLayout(false);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
+            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.this_MouseClick);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panel1;
+        public System.Windows.Forms.FontDialog fontDialog1;
         private System.Windows.Forms.Button TextButton;
         private System.Windows.Forms.ComboBox ShapeCbb;
         private System.Windows.Forms.Button FreeFormBtn;
-        public System.Windows.Forms.FontDialog fontDialog1;
     }
 }
 
