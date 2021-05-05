@@ -57,6 +57,7 @@ namespace Intern_Test
             this.ShapeCbb.Size = new System.Drawing.Size(90, 33);
             this.ShapeCbb.TabIndex = 4;
             this.ShapeCbb.Text = "Shape";
+            this.ShapeCbb.SelectedIndexChanged += new System.EventHandler(this.ShapeCbb_SelectedIndexChanged);
             // 
             // FreeFormBtn
             // 
@@ -66,6 +67,7 @@ namespace Intern_Test
             this.FreeFormBtn.TabIndex = 3;
             this.FreeFormBtn.Text = "Free form";
             this.FreeFormBtn.UseVisualStyleBackColor = true;
+            this.FreeFormBtn.Click += new System.EventHandler(this.FreeFormBtn_Click_1);
             // 
             // Form1
             // 
@@ -76,10 +78,15 @@ namespace Intern_Test
             this.Controls.Add(this.TextButton);
             this.Controls.Add(this.ShapeCbb);
             this.Controls.Add(this.FreeFormBtn);
+            this.KeyPreview = true;
             this.Name = "Form1";
             this.Text = "Paint";
-            this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
+            this.Click += new System.EventHandler(this.Form1_Click);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.this_MouseClick);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseUp);
             this.ResumeLayout(false);
 
         }

@@ -6,8 +6,9 @@ namespace Intern_Test
 {
     class Rectangle : Shape
     {
-        public override void Draw()
+        public void Draw()
         {
+            base.Draw();
             graphics.DrawRectangle(pen, 10, 10, 100, 1000);
         }
 

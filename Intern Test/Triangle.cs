@@ -6,7 +6,7 @@ namespace Intern_Test
 {
     class Triangle : Shape
     {
-        public override void Draw()
+        public void Draw()
         {
             throw new NotImplementedException();
         }

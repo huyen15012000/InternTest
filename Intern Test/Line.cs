@@ -6,7 +6,7 @@ namespace Intern_Test
 {
     class Line : Shape
     {
-        public override void Draw()
+        public void Draw()
         {
             throw new NotImplementedException();
         }

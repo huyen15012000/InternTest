@@ -6,7 +6,7 @@ namespace Intern_Test
 {
     class Circle : Shape
     {
-        public override void Draw()
+        public void Draw()
         {
             throw new NotImplementedException();
         }

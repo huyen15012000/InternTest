@@ -7,7 +7,8 @@ namespace Intern_Test
 {
     public abstract class Drawing
     {
-       int x, y;
+       protected int x, y;
+       protected bool isDrawn;
        public Pen pen = new Pen (Color.FromArgb(255, 0, 0, 0));
        public Graphics graphics;
 
@@ -25,6 +26,13 @@ namespace Intern_Test
             return y;
         }
         abstract public void setup(int a, int b);
-        abstract public void Draw();
+        public void Draw()
+        {
+            isDrawn = true;
+        }
+        public bool IsDrawn
+        {
+            get { return isDrawn; }
+        }
     }
 }
